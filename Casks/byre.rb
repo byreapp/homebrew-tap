@@ -1,9 +1,9 @@
 cask "byre" do
   arch arm: "apple-silicon", intel: "intel"
 
-  version "0.4.1"
-  sha256 arm:   "2341270cc5f9fd39a270953504fd1e7358f35de206edc2b039fd4eb91e1a8d0a",
-         intel: "ecd5055454f27e36064caa102e978b84dc1f132cf7484587218bb3cab1321601"
+  version "0.4.2"
+  sha256 arm:   "dc4d2b177c38bacda34aeaf2a10380b6ac53440da6c0cb88ea45adae0c0da210",
+         intel: "f03654d33ea861a0187284088d479c6322a22102fe49720a6042b1094edcdaf9"
 
   url "https://github.com/byreapp/byre-releases/releases/download/v#{version}/Byre-mac-#{arch}.dmg"
   name "Byre"
